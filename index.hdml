@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Phone Shop</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Hero -->
+  <header class="bg-blue-600 text-white py-16">
+    <div class="container mx-auto text-center px-4">
+      <h1 class="text-5xl font-bold mb-4">Best Phones, Best Deals</h1>
+      <p class="text-xl">Discover the latest smartphones at unbeatable prices.</p>
+      <a href="#products" class="mt-8 inline-block bg-white text-blue-600 font-semibold py-3 px-6 rounded shadow hover:bg-gray-100">Shop Now</a>
+    </div>
+  </header>
+
+  <!-- Product Grid -->
+  <section id="products" class="container mx-auto px-4 py-12">
+    <h2 class="text-3xl font-bold mb-6 text-center">Featured Phones</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+      <!-- Example Phone Card -->
+      <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <img src="https://picsum.photos/seed/phone1/400/300" alt="Phone Model A" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold">Phone Model A</h3>
+          <p class="text-blue-600 font-bold mt-2">₹25,000</p>
+          <button class="mt-4 w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600">Add to Cart</button>
+        </div>
+      </div>
+      <!-- Repeat for other phones -->
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="bg-white py-12">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-8 text-center">Why Choose Our Shop</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="text-center">
+          <svg class="mx-auto h-12 w-12 text-blue-600 mb-2"><!-- icon --></svg>
+          <h4 class="font-semibold">Wide Selection</h4>
+          <p class="mt-2 text-gray-600">From budget to flagship models.</p>
+        </div>
+        <div class="text-center">
+          <svg class="mx-auto h-12 w-12 text-blue-600 mb-2"></svg>
+          <h4 class="font-semibold">Best Prices</h4>
+          <p class="mt-2 text-gray-600">Competitive rates & great offers.</p>
+        </div>
+        <div class="text-center">
+          <svg class="mx-auto h-12 w-12 text-blue-600 mb-2"></svg>
+          <h4 class="font-semibold">Secure Checkout</h4>
+          <p class="mt-2 text-gray-600">Safe payment and fast shipping.</p>
+        </div>
+        <div class="text-center">
+          <svg class="mx-auto h-12 w-12 text-blue-600 mb-2"></svg>
+          <h4 class="font-semibold">Excellent Support</h4>
+          <p class="mt-2 text-gray-600">Dedicated customer service team.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-8">
+    <div class="container mx-auto px-4 text-center">
+      <p>© 2025 Phone Shop. All rights reserved.</p>
+      <p class="mt-2 text-sm">Follow us on social media for updates and deals.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
